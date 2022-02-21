@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.welcome-images{
+  background-image: url(../../assets/images/bg.jpg);
+  background-size: cover;
+}
+
+.branding{
+  text-align : center;
+}
+
+.branding h1,.branding p{
+  font-family: 'Luxurious Roman', sans-serif;
+}
+
+.branding h1{
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size:50px;
+  margin:0;
+  padding:0;
+}
+
+.branding p{
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  font-size:20px;
+  color:#848484;
+  margin:0;
+  padding:0;
+}
+
+.welcome-form-input{
+  padding-left:1px;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+
+.next-btn:hover{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(235,12,84,1) 100%);
+}
+
+.back-btn:hover{
+  background: rgb(26,178,214);
+  background: linear-gradient(90deg, rgba(26,178,214,1) 0%, rgba(9,9,121,1) 35%, rgba(255,222,0,1) 100%);
+}
+
+.submit-btn,.submit-btn:hover{
+  background-color:#fc6201;
+  color:white;
+}
