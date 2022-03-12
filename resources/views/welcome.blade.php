@@ -21,7 +21,7 @@
     <div class="col-md-6 p-0 welcome-images">
 
     </div>
-    <div class="col-md-6 pt-2">
+    <div class="col-md-6 pt-2 overflow-hidden">
 
       <!-- start branding coding -->
       <div class="branding">
@@ -38,7 +38,7 @@
           <div class="step-1">
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Company Name</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="company-name" placeholder="COMPANY NAME" />
+              <input type="text" class="form-control welcome-form-input rounded-0 required" name="company-name" placeholder="COMPANY NAME" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
@@ -48,22 +48,22 @@
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Website</label>
-              <input type="website" class="form-control welcome-form-input rounded-0" name="website" placeholder="WEBSITE" />
+              <input type="website" class="form-control welcome-form-input url rounded-0" name="website" placeholder="WEBSITE" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Email</label>
-              <input type="email" class="form-control welcome-form-input rounded-0" name="company-email" placeholder="EMAIL" />
+              <input type="email" class="form-control welcome-form-input rounded-0 required" name="company-email" placeholder="EMAIL" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Founder</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="founder" placeholder="FOUNDER" />
+              <input type="text" class="form-control welcome-form-input rounded-0 required" name="founder" placeholder="FOUNDER" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Founder Email</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="fpunder-email" placeholder="FOUNDER EMAIL" />
+              <input type="email" class="form-control welcome-form-input rounded-0 required" name="fpunder-email" placeholder="FOUNDER EMAIL" />
             </div>
 
             <div class="form-group overflow-hidden">
@@ -79,32 +79,32 @@
           <div class="step-2 d-none ">
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Contact Number</label>
-              <input type="number" class="form-control welcome-form-input rounded-0" name="contact-number" placeholder="CONTACT NUMBER" />
+              <input type="number" class="form-control welcome-form-input rounded-0 required" name="contact-number" placeholder="CONTACT NUMBER" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Street Address</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="street-address" placeholder="STREET ADDRESS" />
+              <input type="text" class="form-control welcome-form-input rounded-0 required" name="street-address" placeholder="STREET ADDRESS" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">City</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="city" placeholder="CITY" />
+              <input type="text" class="form-control welcome-form-input rounded-0 required" name="city" placeholder="CITY" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">State</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="state" placeholder="STATE" />
+              <input type="text" class="form-control welcome-form-input rounded-0 required" name="state" placeholder="STATE" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Country</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="contry" placeholder="COUNTRY" />
+              <input type="text" class="form-control welcome-form-input rounded-0 required" name="contry" placeholder="COUNTRY" />
             </div>
 
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Pincode</label>
-              <input type="text" class="form-control welcome-form-input rounded-0" name="pincode" placeholder="PINCODE" />
+              <input type="text" class="form-control welcome-form-input rounded-0 required" name="pincode" placeholder="PINCODE" />
             </div>
 
             <div class="form-group overflow-hidden">
@@ -129,27 +129,27 @@
             </div>
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Office Start at</label>
-              <input type="time" class="form-control welcome-form-input rounded-0" name="start-at" />
+              <input type="time" class="form-control welcome-form-input rounded-0 required" name="start-at" />
             </div>
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Office End at</label>
-              <input type="time" class="form-control welcome-form-input rounded-0" name="end-at" />
+              <input type="time" class="form-control welcome-form-input rounded-0 required" name="end-at" />
             </div>
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">Established in</label>
-              <input type="date" class="form-control welcome-form-input rounded-0" name="est-in" />
+              <input type="date" class="form-control welcome-form-input rounded-0 required" name="est-in" />
             </div>
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">FACEBOOK URL</label>
-              <input type="url" class="form-control welcome-form-input rounded-0" name="facebook" placeholder="Facebook Url" />
+              <input type="url" class="form-control welcome-form-input url rounded-0" name="facebook" placeholder="Facebook Url" />
             </div>
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">TWITTER URL</label>
-              <input type="url" class="form-control welcome-form-input rounded-0" name="twitter" placeholder="Twitter Url" />
+              <input type="url" class="form-control welcome-form-input url rounded-0" name="twitter" placeholder="Twitter Url" />
             </div>
             <div class="form-group mb-3 overflow-hidden">
               <label class="d-none">INSTAGRAM URL</label>
-              <input type="url" class="form-control welcome-form-input rounded-0" name="instagram" placeholder="Instagram Url" />
+              <input type="url" class="form-control welcome-form-input url rounded-0" name="instagram" placeholder="Instagram Url" />
             </div>
             <div class="form-group overflow-hidden">
               <button type="submit" class="btn btn-info float-left back-btn step-3-back-btn">
@@ -173,7 +173,7 @@
             </div>
             <div class="form-group mb-4 overflow-hidden">
               <label>CATEGORY</label>
-              <select class="form-control" name-category>
+              <select class="form-control required" name-category>
                 <option value="education">Education</option>
               </select>
             </div>
